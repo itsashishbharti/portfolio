@@ -44,3 +44,31 @@
 		padding: 5px;
 		bottom:20px;
 	}
+
+	@media screen and (max-width: 425px){
+		section#Projects >div{
+			width: 385px;
+			height: auto;
+			display: grid;
+			grid-template-columns:1fr;
+			gap:30px;
+		}
+
+	section#Projects >h2{
+		width:385px;
+	}
+	
+	section#Projects > div > div>img{
+		height:210px;
+		width: 385px;
+	}
+	
+	section#Projects > div > div>P{
+		width: 385px;
+	}
+	
+	section#Projects > div > div{
+		width:385px;
+		height:210px;
+	}
+}
