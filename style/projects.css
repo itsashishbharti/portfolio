@@ -1,0 +1,46 @@
+		margin:20 auto;
+		color:gray;
+	}
+	
+	section#Projects >div{
+		display:grid;
+		grid-template-columns:repeat(2,1fr);
+		height:600px;
+		width:1000px;
+		margin:0 auto;
+		
+		
+	}
+
+	section#Projects > div > div{
+		height:300px;
+		width: 500px;
+		margin: 0px;
+	} 
+	
+	section#Projects > div > div>span{
+		background-color:black;
+		border-left: 4px solid red;
+		color:white;
+		font-weight:bold;
+		position:relative;
+		top:40px;
+	}
+	
+
+	section#Projects > div > div>img{
+		height:300px;
+		width: 500px;
+	}
+
+
+	section#Projects > div > div>P{
+		width: 490px;
+		opacity:.8;
+		color:white;
+		background-color: aqua;
+		position:relative;
+		margin:0;
+		padding: 5px;
+		bottom:20px;
+	}
