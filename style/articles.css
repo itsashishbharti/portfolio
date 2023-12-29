@@ -32,3 +32,33 @@
 		
 		
 	}
+
+@media screen and (max-width: 425px){
+	section#Articles > article >h2{
+		width: 385px;
+	}
+	
+	section#Articles > article > article{
+		height: 280px;
+		width: 385px;
+	}
+	
+	section#Articles > article > article>div{
+		width:385px;
+		height: 5px;
+		border-left: 4px solid darkgray;
+	}
+	
+	section#Articles > article > article> h2{
+		width: 385px;
+		height: 40px;
+	}
+	
+	section#Articles > article > article> p{
+		width: 385px;
+	}
+	
+	section#Articles > article > article> a{
+		width: 385px;
+	}
+}
