@@ -26,3 +26,17 @@ nav{
 		text-decoration:none;
 		color: gray;
 	}
+	
+@media screen and (max-width: 425px)
+	{
+	nav{
+		width: 50px;
+		position:fixed;
+		margin:0;
+		right: 20px;
+		top:20px;
+		}	
+	nav>ul{
+		display:none;
+	}
+}
