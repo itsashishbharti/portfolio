@@ -19,3 +19,26 @@
 	footer>div>h4{
 		color: gray;
 	}
+
+	@media screen and (max-width: 425px){
+	footer{
+
+		width: 385px;
+		display:flex;
+		flex-direction:column;
+		
+	}
+	
+	footer>div>ul{
+		list-style-type: none;
+		color: gray;
+		gap:10px;
+		font-weight: bold;
+	}
+
+	footer>div{
+		width: 385px;
+		height: 0px;
+	}
+
+}
