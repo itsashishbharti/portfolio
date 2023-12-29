@@ -1,0 +1,44 @@
+	section#About{
+		text-align:center;
+	}
+
+	section#About>div{
+		height: 120px;
+		width: 120px;
+		border-radius: 50%;
+		border: 4px solid white;
+		background-color: gray;
+		margin: 0 auto;
+	}
+	
+	section#About > div > img{
+		height: 120px;
+		width: 120px;
+		border-radius: 50%;
+		object-fit: cover;
+	}
+	
+	section#About > h2{
+		max-width: 1000px;
+		font-weight: bold;
+		margin: 20px auto;
+		text-align:center;
+		
+	}
+	
+	section#About > h4{
+		color: gray;
+		text-align:center;
+		margin: 20px auto;
+	}
+	
+	section#About > p{
+		text-align:center;
+		color:darkgrey;
+		margin: 20px auto;
+	}
+	
+	section#About>ul{
+		width:500px;
+		margin:0 auto;
+	}
