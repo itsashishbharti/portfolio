@@ -42,3 +42,22 @@
 		width:500px;
 		margin:0 auto;
 	}
+
+@media screen and (max-width: 425px){
+	
+	section#About>ul{
+		width:385px;
+	}
+	
+	section#About > p{
+		width:350px;
+	}
+	
+	section#About > h2{
+		width:385px;
+	}
+
+	section#About>div{
+		margin: 20px auto;
+	}
+}
